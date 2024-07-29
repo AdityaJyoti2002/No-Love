@@ -1,0 +1,44 @@
+.body1{
+    background-color: aquamarine;
+}
+
+.center{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    flex-wrap: wrap;
+
+}
+.button{
+    justify-content: center;
+    text-align: center;
+    /* font-size: 50px; */
+}
+.btn{
+    font-size: 50px;
+    /* border-radius: 2px; */
+    /* transition: 300ms; */
+    /* box-shadow: 0 0 40px 40px red ; */
+}
+.image{
+    width: 270px;
+    height: 210px;
+}
+@media only screen and (max-width:460px){
+    .center{
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        /* flex-wrap: wrap; */
+    
+    }
+}
+@media only screen and (max-width:360px){
+    .center{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        /* flex-wrap: wrap; */
+    
+    }
+}
